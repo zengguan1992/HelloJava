@@ -6,6 +6,7 @@ public class ScannerDemo {
     public static void main(String[] args) {
         demo1();
         demo2();
+
     }
 
     /**
