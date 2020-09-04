@@ -1,3 +1,5 @@
+import Study.ExInterfaceDemo;
+
 /**
  * @author zg
  * @version 1.0
@@ -5,17 +7,10 @@
  */
 public class test {
     public static void main(String[] args) {
-        /*int pi = (int) Math.PI;
-        System.out.println(pi);
-        boolean a = true;
-        boolean b = false;
-        System.out.println("a && b:" + (a && b));*/
-        String a = test1();
-        System.out.println(a);
-        String aa = "1";
-        if (aa == "1"){
-            System.out.println(aa);
-        }
+        ExInterfaceDemo ex = new ExInterfaceDemo();
+        String order = "1231";
+        System.out.println(ex.queryOrder(order));
+
     }
     public static String test1(){
 
