@@ -1,4 +1,4 @@
-package Study;
+package com.zg.study.javase;
 
 public class ExInterfaceDemo implements InterfaceDemo{
     @Override

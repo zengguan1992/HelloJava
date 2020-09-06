@@ -1,4 +1,4 @@
-package Study;
+package com.zg.study.javase;
 
 import java.util.Scanner;
 

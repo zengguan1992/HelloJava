@@ -1,11 +1,11 @@
-import Study.ExInterfaceDemo;
+import com.zg.study.javase.ExInterfaceDemo;
 
 /**
  * @author zg
  * @version 1.0
  * @since 1.8
  */
-public class test {
+public class Main {
     public static void main(String[] args) {
         ExInterfaceDemo ex = new ExInterfaceDemo();
         String order = "1231";

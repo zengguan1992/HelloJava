@@ -1,4 +1,4 @@
-package Study;
+package com.zg.study.javase;
 
 public class RecursionDemo {
     public static void main(String[] args) {
