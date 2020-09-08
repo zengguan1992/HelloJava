@@ -33,6 +33,7 @@ class MyFrame extends Frame{
                 System.exit(0);
             }
         });
+        this.setLayout(new GridLayout(3,1));
 
         //建立3个面板，了解3种布局管理器
         Panel panel1 = new Panel();     //了解流式布局
