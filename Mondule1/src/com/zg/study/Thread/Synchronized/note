@@ -1,0 +1,4 @@
+1.synchronized(object){}
+    object里写class名，当前class的话就写this
+    思考锁住哪个变量可以让程序运行起来可控，object的值就写这个变量所在的类
+2.synchronized不能在循环外

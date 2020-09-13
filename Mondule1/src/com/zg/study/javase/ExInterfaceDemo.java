@@ -16,3 +16,10 @@ public class ExInterfaceDemo implements InterfaceDemo{
         return 0;
     }
 }
+
+class InterfaceImp{
+    public static void main(String[] args) {
+        InterfaceDemo test = new ExInterfaceDemo(); //定义一个接口，new一个该接口实现类
+        test.queryOrder("123123");
+    }
+}

@@ -17,6 +17,7 @@ public class RunnableDemo {
         //Thread thread = new Thread(myRunnable);
         //thread.start();
         new Thread(myRunnable,"zg").start(); //等价于上两句代码
+
     }
 }
 
